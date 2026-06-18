@@ -51,7 +51,7 @@ REST API for the task management application. Node.js, Express, TypeScript, Post
    npm run dev
    ```
 
-   The API runs on `http://localhost:4000` by default. Check `GET /health`.
+   The API runs on `http://localhost:8080` by default. Check `GET /health`.
 
 ## Scripts
 

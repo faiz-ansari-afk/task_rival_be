@@ -11,7 +11,7 @@ function required(name: string, fallback?: string): string {
 }
 
 export const config = {
-  port: parseInt(process.env.PORT ?? '4000', 10),
+  port: parseInt(process.env.PORT ?? '8080', 10),
   nodeEnv: process.env.NODE_ENV ?? 'development',
   databaseUrl: required('DATABASE_URL'),
   jwtSecret: required('JWT_SECRET', process.env.NODE_ENV === 'test' ? 'test_secret' : undefined),
